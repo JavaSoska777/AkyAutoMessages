@@ -1,0 +1,21 @@
+name: AkyAutoMessages
+version: 1.0.0
+main: ru.akydev.akyautomessages.AkyAutoMessages
+author: AkyDev
+description: Автоматические сообщения для вашего сервера
+
+commands:
+  akyautomessages:
+    description: Перезагрузить конфигурацию плагина
+    usage: /akyautomessages reload
+    permission: akyautomessages.admin
+
+permissions:
+  akyautomessages.admin:
+    description: Право на перезагрузку плагина
+    default: op
+  akyautomessages.receive:
+    description: Право на получение автоматических сообщений
+    default: true
+
+api-version: 1.16
